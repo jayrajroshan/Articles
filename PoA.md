@@ -156,9 +156,9 @@ Do the same thing for the second node after changing the data directory.
 
     --datadir /your-directory/blockchain/data/2node/ init /your-directory/blockchain/data/gen/rpds.json
 
-Now we have created the genesis configuration and intialised the nodes using the genesis file. The nodes we created are two separate nodes which were initialised with the same genesis file. To create
+Now we have created the genesis configuration and intialised the nodes using the genesis file. The nodes we created are two separate nodes which were initialised with the same genesis file. To create a blockchain network, all the blocks need to be able to find and connect with other nodes. There are two wa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE0MTAzNDMsMTA3ODU4OTgyNiw2Mz
+eyJoaXN0b3J5IjpbLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2Mz
 Y0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcy
 MDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Mi
 wtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0
