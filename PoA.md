@@ -188,8 +188,9 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --unlock specifies the accounts which are associated with this node that we want to unlock so that we can transact using the account.
  - --password specifies a text file which stores the password for the account.
  - --mine in PoA specifies that the sealing nodes can start to seal or create new blocks.
+ - console starts a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTE1MDIzOTksLTI5NTY5Mzk3OCw2MT
+eyJoaXN0b3J5IjpbLTE0OTQ2OTQ1OTUsLTI5NTY5Mzk3OCw2MT
 Y0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4
 NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC
 0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgy
