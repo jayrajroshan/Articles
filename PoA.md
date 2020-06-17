@@ -137,11 +137,12 @@ In PoA, there is no mining rewards, but the transactions will need some amount o
 
 Press Enter to pre-fund the pre-compile addresses
 Now we need to specify a network ID with which we will find the network. This network ID will be a number, so enter a simple network ID.
-Now we have completed the configuration of the genesis block s
+Now we have completed the configuration of the genesis block so Puppeth will come back to the first page. Now we need to export the configuration so we can start using it to deploy our network.
+Choose the opt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQxNjkwMDEsMTc5Nzk5Mjg0NSwtMT
-A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
-OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
-01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
-NTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTIyNDkyNzgzNiwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
