@@ -58,10 +58,13 @@ We can again check for the version to see if the installation was successful. We
     
  For Windows,  we can use the downloader available at the [download page](https://geth.ethereum.org/downloads/).
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
-Once installed we can use command prompt to check the 
+Once installed we can use command prompt to check the version to check if the installation was successful.
+
+    geth version
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjgwODg1NywxNTE3MzM1Mzk4LC0zNT
-QwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3
-LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNj
-QwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMz
+U0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEz
+NywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MT
+Y0MDU0LC0xMjg3MDYxOTczXX0=
 -->
