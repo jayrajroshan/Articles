@@ -176,13 +176,16 @@ Now that our bootnode is online, we will finally bring our other nodes online. U
 This will bring the Node 1 online. We have passed several parameters in this command. I'll explain them one by one
 
  - --identity is used to identify the node on the network
- - 
+ - --rpc is used to enable RPC communication for the node. We use RPC to issue commands to the node.
+ - --rpcaddr defines the RPC address for this node
+ - --rpcport defines which port is open for RPC communication to this node
+ - --rpccorsdomain
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTM4MjI2OCwtMTk2NDkxMjU0NiwxMD
-c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
-NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
-wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
-MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNT
-k5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNz
+g1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0
+NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC
+0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgw
+MTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OT
+kxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
