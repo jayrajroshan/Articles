@@ -195,13 +195,17 @@ If we see the bootnode now, we'll see a lot of network activity:
 ![Bootnode activity](https://github.com/jayrajroshan/Articles/blob/master/img/11_c_boot_final.png?raw=true)
 
 When the node 1 finds node 2 and connects to it, both the nodes will start sealing new blocks. 
-[https://github.com/jayrajroshan/Articles/blob/master/img/11_node1.png](https://github.com/jayrajroshan/Articles/blob/master/img/11_node1.png?raw=true)
+![Node1 mining](https://github.com/jayrajroshan/Articles/blob/master/img/11_node1.png?raw=true)
+
+Now our Network is up and running. Now we will use Truffle to connect to our network and deploy our smart contract.
+
+## Deploying Smart Contr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzUyOTkzMSwtMTY2NjA3NDAxNSwtMj
-k1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5
-ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLT
-EwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0
-MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNy
-wtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0
-MDU0XX0=
+eyJoaXN0b3J5IjpbNDk3MTc2MjIxLC0xNjY2MDc0MDE1LC0yOT
+U2OTM5NzgsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4
+MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMT
+A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
+OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
+01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
+NTRdfQ==
 -->
