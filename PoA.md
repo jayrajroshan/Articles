@@ -87,7 +87,7 @@ Now that we are inside the blockchain folder, we'll create two more folders 'dat
     mkdir data sc
     cd data
     
-   In this example we will first create a genesis block, then a bootnode and lastly two nodes to interact with the blockchain. So we will create 4 folders:
+In this example we will first create a genesis block, then a bootnode and lastly two nodes to interact with the blockchain. So we will create 4 folders:
 
     mkdir 1node 2node gen boot
     
@@ -204,11 +204,11 @@ Now our Network is up and running. Now we will use Truffle to connect to our net
 ## Deploying Smart Contracts with Truffle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYyNjY1MDksOTQyNDAxMjE1LC0xNj
-Y2MDc0MDE1LC0yOTU2OTM5NzgsNjE2NDg4NzU2LC0xOTY0OTEy
-NTQ2LDEwNzg1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMT
-c5Nzk5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3
-MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MS
-wxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1Nzgx
-MzMzOV19
+eyJoaXN0b3J5IjpbMzAyNzU5MjEzLDk0MjQwMTIxNSwtMTY2Nj
+A3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0
+NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OT
+c5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMz
+NTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMT
+c3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMz
+MzldfQ==
 -->
