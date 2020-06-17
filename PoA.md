@@ -206,7 +206,8 @@ Let's bring node 2 online, use the following code:
 For node 2, we can see we have some additional parameters and we have to change some of the existing parameters.
 
  - --port 30304 is used to specify the http port to access the node.
- - We have to specify a diferent RPC port as
+ - We have to specify a different RPC port 
+ - We have to specify the account which was specified for node 2.
 
 When the node 1 finds node 2 and connects to it, both the nodes will start sealing new blocks. 
 ![Node1 mining](https://github.com/jayrajroshan/Articles/blob/master/img/11_node1.png?raw=true)
@@ -216,11 +217,11 @@ Now our Network is up and running. Now we will use Truffle to connect to our net
 ## Deploying Smart Contracts with Truffle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTI2MDI1MywzMDI3NTkyMTMsOTQyND
-AxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2NDg4NzU2
-LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwODU0LC04MT
-YyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMTE1
-ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MS
-w4MjAyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4
-NDMwXX0=
+eyJoaXN0b3J5IjpbNjc3NTE5MTYxLDMwMjc1OTIxMyw5NDI0MD
+EyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0ODg3NTYs
+LTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNj
+I0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4
+NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLD
+gyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0
+MzBdfQ==
 -->
