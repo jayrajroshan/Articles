@@ -89,7 +89,7 @@ In this example we will first create a genesis block, then a bootnode and lastly
 First we want to create some accounts which we will use to interact with the network. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to make the account. In the terminal, enter:
 
     geth --datadir /your-directory/blockchain/data/1node account new
-You will be prompted to enter a password for this account, enter a sui
+You will be prompted to enter a password for this account, enter a suitable password and remember it. The account will then be created and we'll get a public address of the key. This address will be used to identify the account on the netwo
 
 
 
@@ -100,9 +100,9 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxODQyMTA2LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTE4NzM2MzYyNzMsMTc5Nzk5Mjg0NSwtMT
+A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
+OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
+01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
+NTQsLTEyODcwNjE5NzNdfQ==
 -->
