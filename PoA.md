@@ -150,15 +150,15 @@ To create the two nodes, we need to initialise both the nodes with the same gene
     --datadir /your-directory/blockchain/data/1node/ init /your-directory/blockchain/data/gen/rpds.json
     
 This will initialise Node 1 with the genesis file we created
-[Intialise nodes](https://github.com/jayrajroshan/Articles/blob/master/img/9_geth_init_account.png?raw=true)
+![Intialise nodes](https://github.com/jayrajroshan/Articles/blob/master/img/9_geth_init_account.png?raw=true)
 Do the same thing for the second node after changing the data directory.
 
     --datadir /your-directory/blockchain/data/2node/ init /your-directory/blockchain/data/gen/rpds.json
 Now we have created the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nz
+k5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1
+Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNz
+c5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMz
+OSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
