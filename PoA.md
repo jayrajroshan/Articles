@@ -191,12 +191,15 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - console starts a JavaScript console to interact with the node
 ![Node1 online](https://github.com/jayrajroshan/Articles/blob/master/img/11_a_node1.png?raw=true)
 The node after coming online will connect to the bootnode and start looking for other nodes on the network (or peers). The bootnode will send all the information about the other nodes and Node 1 will connect to them.
+If we see the bootnode now, we'll see a lot of network activity:
+![Bootnode activity](https://github.com/jayrajroshan/Articles/blob/master/img/11_c_boot_final.png?raw=true)
+When the node 1 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Nzg2Nzk2OSwtMTY2NjA3NDAxNSwtMj
-k1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5
-ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLT
-EwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0
-MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNy
-wtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0
-MDU0XX0=
+eyJoaXN0b3J5IjpbMzQ2NjIwNzA4LC0xNjY2MDc0MDE1LC0yOT
+U2OTM5NzgsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4
+MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMT
+A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
+OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
+01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
+NTRdfQ==
 -->
