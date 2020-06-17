@@ -43,12 +43,17 @@ For Linux, we can use the PPA repository for Ethereum.
 Open the terminal and input the following commands:
 
     sudo add-apt-repository -y ppa:ethereum/ethereum
+	
+	```
+sudo apt-get update
+sudo apt-get install ethereum
+``
 
     
     
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQwMTUyMDksLTg4Mjg1Mjc1MSw4Mj
+eyJoaXN0b3J5IjpbLTE3MTc0MzM1MjgsLTg4Mjg1Mjc1MSw4Mj
 AyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMw
 LDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
