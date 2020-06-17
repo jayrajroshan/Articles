@@ -61,10 +61,10 @@ Note: Use the 'geth-alltools' version, since we will be using an additional tool
 Once installed we can use command prompt to check the version to check if the installation was successful.
 
     geth version
-
+![Geth version (Windows)](https://github.com/jayrajroshan/Articles/blob/master/img/1b_geth_ver.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMz
-U0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEz
-NywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MT
-Y0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbMjEzNjIwMzE1MCwtMTcwMTE1ODYxOSwxNT
+E3MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4
+MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1Nz
+gxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
