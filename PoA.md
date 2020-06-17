@@ -36,9 +36,10 @@ We can check if the installation was successful, by checking the version of node
   
 If you get an output, like `v12.18.0`, then the installation was successful.
 
-For Windows, we can use the installation package from the [download page](https://nodejs.org/en/download/). Use the 
+For Windows, we can use the installation package from the [download page](https://nodejs.org/en/download/). 
+Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MD
-gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
-OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTMwOTc5NTAxLC04ODI4NTI3NTEsODIwMj
+U0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwy
+NTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
