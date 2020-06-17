@@ -136,9 +136,10 @@ In PoA, there is no mining rewards, but the transactions will need some amount o
 > Note: We can later fund accounts using faucets, but it's out of scope for now.
 
 Press Enter to pre-fund the pre-compile addresses
-Now we need to enter a network ID
+Now we need to specify a network ID with which we will find the network. This network ID will be a number, so enter a simple network ID.
+Now we have completed the configuration of the genesis block s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkzMzYyNjcsMTc5Nzk5Mjg0NSwtMT
+eyJoaXN0b3J5IjpbLTE0NzQxNjkwMDEsMTc5Nzk5Mjg0NSwtMT
 A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
 OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
 01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
