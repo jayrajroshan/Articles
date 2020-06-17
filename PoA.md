@@ -88,7 +88,7 @@ In this example we will first create a genesis block, then a bootnode and lastly
 
     mkdir 1node 2node gen boot
     
-First we want to create some accounts which we will use to interact with the network. Since we are using PoA, we'll need some accounts which are allowed to sign initially. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to make the account. In the terminal, enter:
+First we want to create some accounts which we will use to interact with the network. Since we are using PoA, we'll need some accounts which are allowed to sign initially. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to create the accounts. Replace 'your-directory' with the directory where you have stored the folder and in the terminal, enter:
 
     geth --datadir /your-directory/blockchain/data/1node account new
 
@@ -147,10 +147,10 @@ Puppeth create json file with the configuration and ask where to save it. If you
 Now we have our Genesis configurations and we can use it to start our nodes. If you want to check the contents of this configuration, you can open the json file in any text editor.
 To create the two nodes, we need to initialise both the nodes with the same genesis file. Enter the following command to initialise Node 1 and store all the data for Node 1 in the folder 1node.
 
-    --datadir /your-directory/blockchain/data/1node/ init /root/rpds-mern/blockchain/data/gen/rpds.json
+    --datadir /your-directory/blockchain/data/1node/ init /your-directory/blockchain/data/gen/rpds.json
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzc1OTM2NSwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbMTUzNzU2OTg1NCwxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
