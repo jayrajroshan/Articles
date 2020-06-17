@@ -114,17 +114,17 @@ Now we will create the Genesis block. The genesis block is the first block that 
     puppeth
     
 You will be prompted to enter a name for the network, enter the name you want, it's always a good idea to not use spaces, rather use '-' or '_' to create longer names like "my_eth_chain".
-Now we'll get several options as to what we want Puppeth to do. Since we want to create a new genesis block, we'll select the option '2. Configure new genesis'.
-Then select '1. Create new genesis from scratch' since we don't have any existing configurations.
+Now we'll get several options as to what we want Puppeth to do. Since we want to create a new genesis block, we'll select the option '2. Configure new genesis' by entering the number 2.
+Then select '1. Create new genesis from scratch' by entering the number 1 since we don't have any existing configurations.
 Now it will ask for which consensus engine to use for the network, we have two options:
 1. Ethash which is an implementation of the Proof of Work consensus protocol and,
-2. 
-
+2. Clique Which is an implementation of the Proof of Authority consensus protocol
+For this tutorial we will be using Clique, so s
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3NjU2Nzk4LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbMTcxODM3ODYzOSwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
