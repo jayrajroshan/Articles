@@ -181,12 +181,14 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --rpcport defines which port is open for RPC communication to this node.
  - --rpccorsdomain defines which remote resources like url addresses can access this node, we have  given a "*" to indicate all resources can access the node.
  - --datadir tells us where the data for the node is stored.
+ - --allow-insecure-unlock is used so that we can unlock an account using the Web3 API via HTTP.
+ - --rpcapi defines the APIs we can access via RPC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNTA0MjEyLDYxNjQ4ODc1NiwtMTk2ND
-kxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYx
-LDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMT
-UxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0
-ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNT
-c4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTI1NTIwODc1Myw2MTY0ODg3NTYsLTE5Nj
+Q5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2
+MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LD
+E1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1
+NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMj
+U3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
