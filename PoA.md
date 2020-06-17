@@ -7,6 +7,7 @@
  2. [Prerequisites](#prerequisites)
  3. [Preparing the environment](#preparing-the-environment)
  4. [Creating the network](#creating-the-network)
+ 5. [Deploying Smart Contracts with Truffle](#deploying-smart-contracts-with-truffle)
 
 ## Overview
 One of the most important part of any blockchain network is the consensus protocol that is being used on the network. The most widely used consensus protocol is 'Proof of Work' or 'PoW' which is used in a lot of major chains like Bitcoin and Ethereum main network (as of June 2020). This protocol requires the nodes to compete against each other by trying to find an answer to a puzzle and whoever reaches the answer first, gets a reward. This protocol is very resource intensive and inefficient. 
@@ -202,11 +203,11 @@ Now our Network is up and running. Now we will use Truffle to connect to our net
 ## Deploying Smart Contracts with Truffle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjE3MjE3NiwtMTY2NjA3NDAxNSwtMj
-k1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5
-ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLT
-EwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0
-MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNy
-wtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0
-MDU0XX0=
+eyJoaXN0b3J5IjpbOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOT
+U2OTM5NzgsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4
+MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMT
+A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
+OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
+01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
+NTRdfQ==
 -->
