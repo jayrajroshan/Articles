@@ -86,7 +86,7 @@ In this example we will first create a genesis block, then a bootnode and lastly
 
     mkdir 1node 2node gen boot
     
-First we want to create some accounts which we will use to interact with the network. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to make the account. In the terminal, enter:
+First we want to create some accounts which we will use to interact with the network. Since we are using PoA, we'll need some accounts which are allowed to sign initially. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to make the account. In the terminal, enter:
 
     geth --datadir /your-directory/blockchain/data/1node account new
 
@@ -113,13 +113,13 @@ Now we will create the Genesis block. The genesis block is the first block that 
     cd gen
     puppeth
     
-You will be prompted to enter a name for the network, enter
+You will be prompted to enter a name for the network, enter the name y
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzMDk0MzMsMTc5Nzk5Mjg0NSwtMT
-A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
-OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
-01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
-NTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTMxMDA3NDUzMSwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
