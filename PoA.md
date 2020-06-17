@@ -24,12 +24,8 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
 ## Preparing the environment
 ### Node.Js
 
-
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzOTI3MTY1LDgyMDI1NDgxLDE3NzkwOD
-AxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5
-OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTE4NDg5MDI4NDMsODIwMjU0ODEsMTc3OT
+A4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzks
+NTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
