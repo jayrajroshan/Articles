@@ -173,17 +173,17 @@ Now that our bootnode is online, we will finally bring our other nodes online. U
 
     geth --identity node1 --rpc --rpcaddr 0.0.0.0 --rpcport 8080 --rpccorsdomain "*" --datadir /your-directory/blockchain/data/1node --allow-insecure-unlock --rpcapi "eth,web3" --networkid 1234 --bootnodes enode://34bf3c9de1e7cd3c672a020bc3b24f484df78527d206d4f459ebf63cf4b104028b2778d40b5caa13a65a73ddd18e042f679334c4d3691d275a7ded13aac93111@127.0.0.1:0?discport=30310 --unlock  0x1A4D8871901C26Aecb803222FE3B6762dab53fCA --password "/root/rpds-mern/blockchain/data/1node/key.txt" --mine console
 
-This will bring the Node 1 online. We have passed several parameters in this command. I'll explain them one by one
+This will bring the Node 1 online. We have passed several parameters in this command. I'll explain them one by one,
 
- - --identity is used to identify the node on the network
+ - --identity is used to identify the node on the network.
  - --rpc is used to enable RPC communication for the node. We use RPC to issue commands to the node.
- - --rpcaddr defines the RPC address for this node
- - --rpcport defines which port is open for RPC communication to this node
+ - --rpcaddr defines the RPC address for this node.
+ - --rpcport defines which port is open for RPC communication to this node.
  - --rpccorsdomain defines which remote resources like url addresses can access this node, we have  given a "*" to indicate all resources can access the node.
- - -
+ - --datadir tells us where the data for the node is stored.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3NjQzMDQzLDYxNjQ4ODc1NiwtMTk2ND
+eyJoaXN0b3J5IjpbNTYyNTA0MjEyLDYxNjQ4ODc1NiwtMTk2ND
 kxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYx
 LDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMT
 UxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0
