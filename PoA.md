@@ -73,11 +73,11 @@ Truffle will be installed on your system.
 ## Creating the network
 
 First let's make our working directory, and all the folders we need within it. We can do this via the file manager in both Windows and Linux, or using the mkdir command in linux.
-First we will create a folder named blockchain
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQxMzIyMDEsLTEwNjM0NzIwMzAsLT
-E3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4
-NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LD
-E3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYx
-OTczXX0=
+eyJoaXN0b3J5IjpbMTc5Nzk5Mjg0NSwtMTA2MzQ3MjAzMCwtMT
+cwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1
+Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMT
+c0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5
+NzNdfQ==
 -->
