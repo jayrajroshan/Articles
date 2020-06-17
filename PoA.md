@@ -13,11 +13,12 @@ PoW is primarily used in public networks where anyone can join the network and w
 Proof of Authority is an alternate consensus mechanism for blockchain networks. It is primarily used in permissioned private blockchain network. Essentially, only the nodes which have been verified to be authentic are allowed to join the network. This means that the nodes have an implicit trust among each other and they do not need to verify their authenticity on the network. Therefore the nodes don't have to go through the resource intensive puzzles to create a new block.
 
 In this tutorial we will be using a program called Geth, which is a full Ethereum node made using Go. As Geth is a full Ethereum node, we can keep a full copy of the chain. We can connect to the main ethereum chain and sync with that, or we can create our own private network. For private networks, Geth supports both PoW and PoA consensus protocols. The PoA implementation of Geth is called 'Clique'. It was implemented in Ethereum with the [EIP 225](https://eips.ethereum.org/EIPS/eip-225). You can read more about the workings of the protocol at the given link.
+
 ## Prerequisites
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMjU0ODEsMTc3OTA4MDEzNywtNTYxNz
-QzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0x
-Mjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTQwMTQxMzk4OSw4MjAyNTQ4MSwxNzc5MD
+gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
+OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
