@@ -67,10 +67,11 @@ Once installed we can use command prompt to check the version to check if the in
 Truffle can be installed using the Node package manager or npm. Put the following code in either the Linux Terminal or Windows command prompt:
 
     npm install truffle -g
-
+Truffle will be installed on your system.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMT
-UxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0
-ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNT
-c4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTExODc2NjQ0MTIsLTEwNjM0NzIwMzAsLT
+E3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4
+NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LD
+E3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYx
+OTczXX0=
 -->
