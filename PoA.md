@@ -119,10 +119,12 @@ Then select '1. Create new genesis from scratch' by entering the number 1 since 
 Now it will ask for which consensus engine to use for the network, we have two options:
 1. Ethash which is an implementation of the Proof of Work consensus protocol and,
 2. Clique Which is an implementation of the Proof of Authority consensus protocol
-For this tutorial we will be using Clique, so s
+For this tutorial we will be using Clique, so enter 2 and press Enter.
+![Puppeth configuration](https://github.com/jayrajroshan/Articles/blob/master/img/5_pup_gen_clique.png?raw=true)
 
+Now we can choose 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODM3ODYzOSwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbLTk0Nzc0OTE3OCwxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
