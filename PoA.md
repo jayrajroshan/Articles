@@ -75,14 +75,14 @@ Truffle will be installed on your system.
 First let's make our working directory, and all the folders we need within it. We can do this via the file manager in both Windows and Linux, or using the mkdir command in linux.
 The final file structure should look like this:
 ![Directory tree](https://github.com/jayrajroshan/Articles/blob/master/img/1c_dir_tree.png?raw=true)
-Let's create the folders:
-
-    enter code here
+Let's create the folders, first we'll create the project folder of the name 'blockchain' then go t
+    mkdir blockchain
+    cd blockchain
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjYyMTc5MywxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbMjI4NzAyNDUxLDE3OTc5OTI4NDUsLTEwNj
+M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
+NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
+YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
+LC0xMjg3MDYxOTczXX0=
 -->
