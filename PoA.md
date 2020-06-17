@@ -29,10 +29,14 @@ For Linux we can use the apt package manager
     sudo apt install nodejs
     sudo apt install npm
   
-We can check if the installation was succus
+We can check if the installation was successful, by checking the version of node.js and npm installed on the system. Use the commands given below.
+
+    node -v
+    npm -v
+
 For Windows we can use the installation package from the [download page](https://nodejs.org/en/download/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzAwMzQ5LDgyMDI1NDgxLDE3NzkwOD
-AxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5
-OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTIwNjM5MDEzMSw4MjAyNTQ4MSwxNzc5MD
+gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
+OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
