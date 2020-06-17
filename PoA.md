@@ -139,9 +139,10 @@ Press Enter to pre-fund the pre-compile addresses
 Now we need to specify a network ID with which we will find the network. This network ID will be a number, so enter a simple network ID.
 Now we have completed the configuration of the genesis block so Puppeth will come back to the first page. Now we need to export the configuration so we can start using it to deploy our network.
 Choose the option '2. Manage existing genesis' by entering the number 2. Then select the option '2. Export genesis configurations' by entering 2.
-Puppeth create json file with the configuration and ask where to save it. If you started Puppeth while in the gen folder then just press enter otherwise you can spec
+Puppeth create json file with the configuration and ask where to save it. If you started Puppeth while in the gen folder then just press enter since it takes the current directory by default otherwise you can specify the folder here.
+![Puppeth export](https://github.com/jayrajroshan/Articles/blob/master/img/8_pup_gen_export.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Mzc2MTA5OSwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbMTQ4NDA1OTM0MywxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
