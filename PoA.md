@@ -130,11 +130,14 @@ Now it will ask for the addresses of the accounts which will be allowed to seal(
 
 > Note: We can add new accounts which are allowed to seal later.
 
-In PoA, there is no mining rewards, but the transactions will need some amount of gas fee, so it's a good idea to pre-fund our accounts
+In PoA, there is no mining rewards, but the transactions will need some amount of gas fee, so it's a good idea to pre-fund our signer accounts. Puppeth will now ask you to enter the account addresses which should be pre-funded, enter the two accounts we created.
+
+> Note: We can later fund accounts using faucets and other 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NDQ0MTIsMTc5Nzk5Mjg0NSwtMTA2Mz
-Q3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1
-NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC01Nj
-E3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQwNTQs
-LTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbNzQ5ODUyNTQ4LDE3OTc5OTI4NDUsLTEwNj
+M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
+NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
+YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
+LC0xMjg3MDYxOTczXX0=
 -->
