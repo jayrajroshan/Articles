@@ -91,7 +91,11 @@ First we want to create some accounts which we will use to interact with the net
     geth --datadir /your-directory/blockchain/data/1node account new
     
 You will be prompted to enter a password for this account, enter a suitable password and remember it. The account will then be created and we'll get a public address of the key. This address will be used to identify the account on the network. Keep a note of this address, you can copy this and store it in a txt file.  
-Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions.
+Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions. We'll go to the folder 1node where the data for node 1 is kept and make a file called key.txt, put the password in and save it.
+
+    cd 1node
+    nano key.txt
+W
 
 
 
@@ -102,7 +106,7 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTQ4ODc3MywxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbMTY4NjMxMTg0OCwxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
