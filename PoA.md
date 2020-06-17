@@ -165,9 +165,10 @@ This will create a file called 'boot.key' which we will use to run the bootnode.
 
     bootnode -nodekey boot.key -verbosity 9 -addr :30310
 
-We give two additional options with the command, which are '-verbosity' and '-addr'. Verbosity is used so that we can get  This will bring the bootnode online and it will display
+We give two additional options with the command, which are '-verbosity' and '-addr'. Verbosity is used so that we can log events which are happening on the network and the bootnode. The addr parameter is defined to specify an address for the bootnode, here we have just specified the port, it will take the localhost as it's address.
+This will bring the bootnode online and it will display
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjgyMTI2MywtMTk2NDkxMjU0NiwxMD
+eyJoaXN0b3J5IjpbLTI5MDIyNTI3MywtMTk2NDkxMjU0NiwxMD
 c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
 NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
 wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
