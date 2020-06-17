@@ -114,11 +114,12 @@ Now we will create the Genesis block. The genesis block is the first block that 
     puppeth
     
 You will be prompted to enter a name for the network, enter the name you want, it's always a good idea to not use spaces, rather use '-' or '_' to create longer names like "my_eth_chain".
-Now we'll get several options 
+Now we'll get several options as to what we want Puppeth to do. Since we want to create a new genesis block, we'll select the option '2. Configure new genesis'.
+Then select '1. Create new genesis from scratch'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTQ1MTYyMCwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbLTgxNjUxMDQ2MywxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
