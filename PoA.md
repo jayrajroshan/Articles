@@ -82,13 +82,16 @@ Now that we are inside the blockchain folder, we'll create two more folders 'dat
 
     mkdir data sc
     cd data
-In this example we will first create a genesis block, then a bootnode and lastly two nor
+In this example we will first create a genesis block, then a bootnode and lastly two nodes to interact with the blockchain. So we will create 4 folders:
 
+    mkdir 1node 2node gen boot
+    
+Now we will 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MjYxMjU4LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTc1MzA5NTcsMTc5Nzk5Mjg0NSwtMTA2Mz
+Q3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1
+NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC01Nj
+E3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQwNTQs
+LTEyODcwNjE5NzNdfQ==
 -->
