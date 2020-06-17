@@ -33,10 +33,11 @@ We can check if the installation was successful, by checking the version of node
 
     node -v
     npm -v
-
+  
+If you get an output, like `v12.18.0`, then the installation wa
 For Windows we can use the installation package from the [download page](https://nodejs.org/en/download/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM5MDEzMSw4MjAyNTQ4MSwxNzc5MD
-gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
-OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTExNDI0MjE1NTQsODIwMjU0ODEsMTc3OT
+A4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzks
+NTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
