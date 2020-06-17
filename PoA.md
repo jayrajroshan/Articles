@@ -200,16 +200,14 @@ Let's bring node 2 online, use the following code:
 
  
 
-    geth --identity node2 --port 30304 --rpc --rpcaddr 0.0.0.0 --rpcport 8081 
-    --rpccorsdomain "*" --datadir /your-directory/blockchain/data/2node 
-    --allow-insecure-unlock --rpcapi "eth,web3" --networkid 1234 --bootnodes enode://34bf3c9de1e7cd3c672a020bc3b24f484df78527d206d4f459ebf63cf4b104028b2778d40b5caa13a65a73ddd18e042f679334c4d3691d275a7ded13aac93111@127.0.0.1:0?discport=30310 --unlock  0x0E7736F9260c9063DB1bfAebE3B1D2aF20cf605e --password "/your-directory/blockchain/data/2node/key.txt" --mine --ipcdisable console
+    geth --identity node2 --port 30304 --rpc --rpcaddr 0.0.0.0 --rpcport 8081 --rpccorsdomain "*" --datadir /your-directory/blockchain/data/2node --allow-insecure-unlock --rpcapi "eth,web3" --networkid 1234 --bootnodes enode://34bf3c9de1e7cd3c672a020bc3b24f484df78527d206d4f459ebf63cf4b104028b2778d40b5caa13a65a73ddd18e042f679334c4d3691d275a7ded13aac93111@127.0.0.1:0?discport=30310 --unlock  0x0E7736F9260c9063DB1bfAebE3B1D2aF20cf605e --password "/your-directory/blockchain/data/2node/key.txt" --mine --ipcdisable console
 
 
 For node 2, we can see we have some additional parameters and we have to change some of the existing parameters.
 
  - --port 30304 is used to specify the http port to access the node.
  - We have to specify a different RPC port 
- - We have to specify the account which was specified for node 2.
+ - We have to specify the account which was specified for node 2
 
 When the node 1 finds node 2 and connects to it, both the nodes will start sealing new blocks. 
 ![Node1 mining](https://github.com/jayrajroshan/Articles/blob/master/img/11_node1.png?raw=true)
@@ -220,8 +218,8 @@ Now our Network is up and running. Now we will use Truffle to connect to our net
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzE3
-MjYzNTY1ODYsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+NjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
 EzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYx
 NjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MD
 g1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAs
