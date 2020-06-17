@@ -86,16 +86,21 @@ In this example we will first create a genesis block, then a bootnode and lastly
 
     mkdir 1node 2node gen boot
     
+First we want to create some accounts which we will use to interact with the network. We will create 1 account in Node 1 and
+
+
+
+
 Now we will create the Genesis block. The genesis block is the first block that is created for the blockchain and it stores all the configuration for the network. We will use a tool called Puppeth to create the genesis block. First we will go to the gen folder where we want to store the config file for the genesis block. Then start Puppeth. Open the terminal and enter the following code:
 
-    
+    cd gen
     puppeth
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg3NTQ5LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTk4MzQ1MjA0MCwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
