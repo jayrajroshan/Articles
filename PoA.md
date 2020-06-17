@@ -179,13 +179,14 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --rpc is used to enable RPC communication for the node. We use RPC to issue commands to the node.
  - --rpcaddr defines the RPC address for this node
  - --rpcport defines which port is open for RPC communication to this node
- - --rpccorsdomain
+ - --rpccorsdomain defines which remote resources like url addresses can access this node, we have  given a "*" to indicate all resources can access the node.
+ - -
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNz
-g1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0
-NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC
-0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgw
-MTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OT
-kxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMjk3NjQzMDQzLDYxNjQ4ODc1NiwtMTk2ND
+kxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYx
+LDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMT
+UxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0
+ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNT
+c4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
