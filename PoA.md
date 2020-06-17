@@ -161,12 +161,13 @@ The first is to manually enter the addresses of each node on our network to othe
 The other way is by using a 'bootnode'. A bootnode is a node which has one job that is network discovery. It allows all the nodes in the network to discover each other and connect with each other so that we don't have to manually connect each node. We can use any node as the bootnode, however, Geth gives us a dedicated light-weight bootnode. To use this bootnode, we will first need to create a key file for the bootnode. Go to the boot folder that we created and use the following command:
 
     bootnode -genkey boot.key
+This will create a file called 'boot.key' which we will use to run the bootnode. You can name the file anything such as 'discover.key'. To run the bootnode we will
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MDA1NTM4LC0xOTY0OTEyNTQ2LDEwNz
-g1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0
-NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC
-0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgw
-MTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OT
-kxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTk4NDI3Njk3NSwtMTk2NDkxMjU0NiwxMD
+c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
+NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
+wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
+MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNT
+k5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
