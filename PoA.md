@@ -169,12 +169,15 @@ We give two additional options with the command, which are '-verbosity' and '-ad
 This command will bring the bootnode online and it will display the address we will need to connect with the bootnode, the address will start with "enode" and it will have a string of characters and ending with the address and the port for the bootnode. Make a note of this address, as we will need to specify this for the other nodes, so that they can find and connect to the bootnode.
 ![Bootnode online](https://github.com/jayrajroshan/Articles/blob/master/img/10_boot.png?raw=true)
 
-Now that our bootnode is online, we will finally bring our o
+Now that our bootnode is online, we will finally bring our other nodes online. Use the following command for bringing Node 1 online:
+
+    geth --identity node1 --rpc --rpcaddr 0.0.0.0 --rpcport 8080 --rpccorsdomain "*" --datadir /your-directory/blockchain/data/1node --allow-insecure-unlock --rpcapi "eth,web3" --networkid 1234 --bootnodes enode://34bf3c9de1e7cd3c672a020bc3b24f484df78527d206d4f459ebf63cf4b104028b2778d40b5caa13a65a73ddd18e042f679334c4d3691d275a7ded13aac93111@127.0.0.1:0?discport=30310 --unlock  0x1A4D8871901C26Aecb803222FE3B6762dab53fCA --password "/root/rpds-mern/blockchain/data/1node/key.txt" --mine console
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4OTM1MDQsLTE5NjQ5MTI1NDYsMTA3OD
-U4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1
-LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLT
-M1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAx
-MzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OT
-E2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTEwNjk2NjEyNDgsLTE5NjQ5MTI1NDYsMT
+A3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTky
+ODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOT
+gsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3Nzkw
+ODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LD
+U5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
