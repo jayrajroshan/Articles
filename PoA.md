@@ -57,7 +57,9 @@ We can again check for the version to see if the installation was successful. We
 ![Geth version](https://github.com/jayrajroshan/Articles/blob/master/img/1_geth_ver.png?raw=true)
     
  For Windows,  we can use the downloader available at the [download page](https://geth.ethereum.org/downloads/).
-Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
+
+> Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
+
 Once installed we can use command prompt to check the version to check if the installation was successful.
 
     geth version
@@ -124,11 +126,15 @@ For this tutorial we will be using Clique, so enter 2 and press Enter.
 
 Now we can choose the time taken to create a new block. The actual time taken for each individual block will vary, but the network will try to keep the average time it takes to create a new block close to the given time.
 I have given it as 1 second, but we can give it as we want, depending on the use of the network.
-Now it will ask for the addresses of the accounts which will be allowed to seal(or create) a new block at the start of the network. So paste the addresses of the two accounts we created and press enter. Keep a note that 0x is already
+Now it will ask for the addresses of the accounts which will be allowed to seal(or create) a new block at the start of the network. So paste the addresses of the two accounts we created and press enter. Keep a note that 0x is already written in Puppeth, so copy after the 0x in the account address.
+
+> Note: We
+
+In PoA, there is no
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY4NzI0MDQsMTc5Nzk5Mjg0NSwtMT
-A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
-OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
-01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
-NTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTQ0OTY2ODQzMywxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
