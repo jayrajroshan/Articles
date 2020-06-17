@@ -4,6 +4,7 @@
 # Proof of Authority - Private Networks
 
  1. [Overview](#Overview)
+ 2. [Prerequisites](#Prerequisites)
 
 ## Overview
 One of the most important part of any blockchain network is the consensus protocol that is being used on the network. The most widely used consensus protocol is 'Proof of Work' or 'PoW' which is used in a lot of major chains like Bitcoin and Ethereum main network (as of June 2020). This protocol requires the nodes to compete against each other by trying to find an answer to a puzzle and whoever reaches the answer first, gets a reward. This protocol is very resource intensive and inefficient. 
@@ -16,7 +17,7 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE0OTMxMTMsLTU2MTc0MzM1OCwxNz
-Q2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3
-M119
+eyJoaXN0b3J5IjpbMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3ND
+Y1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTcz
+XX0=
 -->
