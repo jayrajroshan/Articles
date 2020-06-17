@@ -151,7 +151,7 @@ To create the two nodes, we need to initialise both the nodes with the same gene
     --datadir /your-directory/blockchain/data/1node/ init /your-directory/blockchain/data/gen/rpds.json
     
 This will initialise Node 1 with the genesis file we created
-![Intialise nodes](https://github.com/jayrajroshan/Articles/blob/master/img/9_geth_init_account.png?raw=true)
+[Intialise nodes](https://github.com/jayrajroshan/Articles/blob/master/img/9_geth_init_account.png?raw=true)
 Do the same thing for the second node after changing the data directory.
 
     --datadir /your-directory/blockchain/data/2node/ init /your-directory/blockchain/data/gen/rpds.json
@@ -166,12 +166,13 @@ This will create a file called 'boot.key' which we will use to run the bootnode.
     bootnode -nodekey boot.key -verbosity 9 -addr :30310
 
 We give two additional options with the command, which are '-verbosity' and '-addr'. Verbosity is used so that we can log events which are happening on the network and the bootnode. The addr parameter is defined to specify an address for the bootnode, here we have just specified the port, it will take the localhost as it's address.
-This command will bring the bootnode online and it will display the address we will need to connect with the bootnode, the address will start with "enode" and it will have a string of characters and ending with the address and the port for the bootnode. Make a note of th
+This command will bring the bootnode online and it will display the address we will need to connect with the bootnode, the address will start with "enode" and it will have a string of characters and ending with the address and the port for the bootnode. Make a note of this address, as we will need to specify this for the other nodes, so that they can find and connect to the bootnode.
+![Bootnode online](https://github.com/jayrajroshan/Articles/blob/master/img/10_boot.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MjkyMDQ2LC0xOTY0OTEyNTQ2LDEwNz
-g1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0
-NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC
-0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgw
-MTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OT
-kxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTE3NzY2ODA1NzEsLTE5NjQ5MTI1NDYsMT
+A3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTky
+ODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOT
+gsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3Nzkw
+ODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LD
+U5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
