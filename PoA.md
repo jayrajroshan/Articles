@@ -62,9 +62,13 @@ Once installed we can use command prompt to check the version to check if the in
 
     geth version
 ![Geth version (Windows)](https://github.com/jayrajroshan/Articles/blob/master/img/1b_geth_ver.png?raw=true)
+
+### Truffle
+Truffle can be installed using 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjIwMzE1MCwtMTcwMTE1ODYxOSwxNT
-E3MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4
-MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1Nz
-gxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbOTAyNDQwNjA2LC0xNzAxMTU4NjE5LDE1MT
+czMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgx
+LDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3OD
+EzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
