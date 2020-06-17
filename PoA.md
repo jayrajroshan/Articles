@@ -124,9 +124,9 @@ For this tutorial we will be using Clique, so enter 2 and press Enter.
 
 Now we can choose the time taken to create a new block. The actual time taken for each individual block will vary, but the network will try to keep the average time it takes to create a new block close to the given time.
 I have given it as 1 second, but we can give it as we want, depending on the use of the network.
-
+Now it will ask for the addresses of the accounts which will be allowed to seal(or create) a new block at the start of the network. So paste the addresses of the two accounts we created and press enter. Keep a note that 0x is already
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA1MDMzNDcsMTc5Nzk5Mjg0NSwtMT
+eyJoaXN0b3J5IjpbLTIwMDY4NzI0MDQsMTc5Nzk5Mjg0NSwtMT
 A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
 OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
 01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
