@@ -92,7 +92,7 @@ First we want to create some accounts which we will use to interact with the net
 
     geth --datadir /your-directory/blockchain/data/1node account new
 
-> Note: If you don't know the directory of the folder go to that folder and enter the ''
+> Note: If you don't know the directory of the folder go to that folder and enter the 'cd' command in Windows or the 'pwd' command in Linux to show you the full working directory which is required for the --datadir. You can also use relative paths.
 
 ![New account](https://github.com/jayrajroshan/Articles/blob/master/img/2_node_account.png?raw=true)
     
@@ -143,10 +143,12 @@ Now we have completed the configuration of the genesis block so Puppeth will com
 Choose the option '2. Manage existing genesis' by entering the number 2. Then select the option '2. Export genesis configurations' by entering 2.
 Puppeth create json file with the configuration and ask where to save it. If you started Puppeth while in the gen folder then just press enter since it takes the current directory by default otherwise you can specify the folder here.
 ![Puppeth export](https://github.com/jayrajroshan/Articles/blob/master/img/8_pup_gen_export.png?raw=true)
+
+Now we have our Genesis 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjkxNTY2MiwxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbOTAzNTI5NjA2LDE3OTc5OTI4NDUsLTEwNj
+M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
+NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
+YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
+LC0xMjg3MDYxOTczXX0=
 -->
