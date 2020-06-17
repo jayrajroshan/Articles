@@ -158,9 +158,9 @@ Do the same thing for the second node after changing the data directory.
 
 Now we have created the genesis configuration and intialised the nodes using the genesis file. The nodes we created are two separate nodes which were initialised with the same genesis file. To create a blockchain network, all the blocks need to be able to find and connect with other nodes. There are two ways we can do this.
 The first is to manually enter the addresses of each node on our network to other nodes. This process is not feasible as the time required for this will increase to a substantial amount when the number of nodes increase. 
-The other way is by using a 'bootnode'. A bootnode is a node which has one job that is network discovery. It allows all the nodes in the network to discover each other and connect to them.
+The other way is by using a 'bootnode'. A bootnode is a node which has one job that is network discovery. It allows all the nodes in the network to discover each other and connect with each other so that we don't have to manually connect each node. We can use any node as the bootnode, however, Geth gives us a dedicated light-weight bootnode. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMjkxNTcxLC0xOTY0OTEyNTQ2LDEwNz
+eyJoaXN0b3J5IjpbLTMwMzk2NjU2LC0xOTY0OTEyNTQ2LDEwNz
 g1ODk4MjYsNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0
 NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC
 0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgw
