@@ -91,7 +91,7 @@ First we want to create some accounts which we will use to interact with the net
     geth --datadir /your-directory/blockchain/data/1node account new
     
 You will be prompted to enter a password for this account, enter a suitable password and remember it. The account will then be created and we'll get a public address of the key. This address will be used to identify the account on the network. Keep a note of this address, you can copy this and store it in a txt file.  
-Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions. We'll go to the folder 1node where the data for node 1 is kept and make a file called key.txt, put the password in and save it.
+Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions. We'll go to the folder 1node where the data for node 1 is kept and make a file called key.txt, put the password in and save it. We'll use the nano text editor, you can use your favorite text editor. 
 
     cd 1node
     nano key.txt
@@ -100,7 +100,10 @@ We'll do the same thing to create an account for node 2:
     geth --datadir /your-directory/blockchain/data/2node account new
 
 Again give a simple password and store the address somewhere.
-Th
+Then go to the folder 2node and create a key.txt file with the password for this account.
+
+    cd ../2node
+    nano key.txt
 
 
 
@@ -111,9 +114,9 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY3NzAyMTIsMTc5Nzk5Mjg0NSwtMT
-A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
-OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
-01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
-NTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzcwNjQ0NywxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
