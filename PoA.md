@@ -64,11 +64,13 @@ Once installed we can use command prompt to check the version to check if the in
 ![Geth version (Windows)](https://github.com/jayrajroshan/Articles/blob/master/img/1b_geth_ver.png?raw=true)
 
 ### Truffle
-Truffle can be installed using 
+Truffle can be installed using the Node package manager or npm. Put the following code in either the Linux Terminal or Windows command prompt:
+
+    npm install truffle -g
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNDQwNjA2LC0xNzAxMTU4NjE5LDE1MT
-czMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgx
-LDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3OD
-EzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMT
+UxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0
+ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNT
+c4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
