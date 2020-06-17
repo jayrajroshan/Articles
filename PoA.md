@@ -184,10 +184,10 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --allow-insecure-unlock is used so that we can unlock an account using the Web3 API via HTTP.
  - --rpcapi defines the APIs we can access via RPC.
  - --networkid is used to identify the network.
- - --bootnodes is used to store the address of the bootnodes that the n
-
+ - --bootnodes is used to store the address of the bootnodes that the node will connect to discover other nodes on the network.
+ - --unlock is used to unlock any accounts which are associated with this node so that we can transact using the account.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDkyOTg4MSwtMjk1NjkzOTc4LDYxNj
+eyJoaXN0b3J5IjpbLTY5NDkyODg2NSwtMjk1NjkzOTc4LDYxNj
 Q4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1
 NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLT
 E3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4
