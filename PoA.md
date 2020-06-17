@@ -21,9 +21,15 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
 - [Geth](https://geth.ethereum.org/)
 - [Truffle](https://www.trufflesuite.com/truffle)
 
-## Preparing the en
+## Preparing the environment
+### Node.Js
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTgzNzUwMyw4MjAyNTQ4MSwxNzc5MD
-gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
-OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbNzEzOTI3MTY1LDgyMDI1NDgxLDE3NzkwOD
+AxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5
+OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
