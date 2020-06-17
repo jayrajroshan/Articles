@@ -50,13 +50,16 @@ Open the terminal and input the following commands:
 
 This will install Geth in your system along with additional tools, like Puppeth which we will use.
 We can again check for the version to see if the installation was successful. We will use the following code:
-``` geth version```
+
+    geth version
+
    
 ![Checking the Geth version](https://github.com/jayrajroshan/Articles/blob/master/img/1_geth_ver.png)
     
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMD
-I1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAs
-MjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04OD
+I4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4
+LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MD
+YxOTczXX0=
 -->
