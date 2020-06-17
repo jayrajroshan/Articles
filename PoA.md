@@ -86,7 +86,8 @@ In this example we will first create a genesis block, then a bootnode and lastly
 
     mkdir 1node 2node gen boot
     
-First we want to create some accounts which we will use to interact with the network. We will create 1 account in Node 1 and
+First we want to create some accounts which we will use to interact with the network. We will create an account in Node 1 andstore all the data and another in Node 2. We will use geth to make the account and store all the files in the folder
+
 
 
 
@@ -98,7 +99,7 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzQ1MjA0MCwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbLTkwNTE2NjExNSwxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
