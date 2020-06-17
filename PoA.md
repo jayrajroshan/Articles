@@ -165,12 +165,12 @@ This will create a file called 'boot.key' which we will use to run the bootnode.
 
     bootnode -nodekey boot.key -verbosity 9 -addr :30310
 
-We give two additional options with the command, whicThis will bring the bootnode online and it will display
+We give two additional options with the command, which are '-verbosity' and '-addr'. Verbosity is used so that we can get  This will bring the bootnode online and it will display
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMxMDA5NTMsLTE5NjQ5MTI1NDYsMT
-A3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTky
-ODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOT
-gsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3Nzkw
-ODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LD
-U5OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTUxMjgyMTI2MywtMTk2NDkxMjU0NiwxMD
+c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
+NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
+wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
+MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNT
+k5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
