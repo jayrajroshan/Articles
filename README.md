@@ -1,4 +1,4 @@
-## Articles
+# Articles
 
-# A collection of articles written in Markdown
+## A collection of articles written in Markdown
 
