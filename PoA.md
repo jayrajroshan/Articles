@@ -145,11 +145,14 @@ Puppeth create json file with the configuration and ask where to save it. If you
 ![Puppeth export](https://github.com/jayrajroshan/Articles/blob/master/img/8_pup_gen_export.png?raw=true)
 
 Now we have our Genesis configurations and we can use it to start our nodes. If you want to check the contents of this configuration, you can open the json file in any text editor.
-To create the two nodes, we need to initialise both the nodes with the same genesis file. Enter the following command to initialise node 1 and store all the data for Node 1 in the folder 1
+To create the two nodes, we need to initialise both the nodes with the same genesis file. Enter the following command to initialise Node 1 and store all the data for Node 1 in the folder 1node.
+
+    --datadir /your-directory/blockchain/data/1node/ init /root/rpds-mern/blockchain/data/gen/rpds.json
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMjQ1OTg4LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTQyNzc1OTM2NSwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
