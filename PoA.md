@@ -158,12 +158,12 @@ Do the same thing for the second node after changing the data directory.
 
 Now we have created the genesis configuration and intialised the nodes using the genesis file. The nodes we created are two separate nodes which were initialised with the same genesis file. To create a blockchain network, all the blocks need to be able to find and connect with other nodes. There are two ways we can do this.
 The first is to manually enter the addresses of each node on our network to other nodes. This process is not feasible as the time required for this will increase to a substantial amount when the number of nodes increase. 
-The other way is by 
+The other way is by using a 'bootnode'. A bootnode is a node which has one job
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDQzODUxMCwtMTk2NDkxMjU0NiwxMD
-c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
-NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
-wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
-MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNT
-k5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTE2MTcxNjg1OTEsLTE5NjQ5MTI1NDYsMT
+A3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTky
+ODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOT
+gsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3Nzkw
+ODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LD
+U5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
