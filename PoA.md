@@ -92,7 +92,7 @@ First we want to create some accounts which we will use to interact with the net
 
     geth --datadir /your-directory/blockchain/data/1node account new
 
-> Note: If you don't k
+> Note: If you don't know the directory of the folder go to that folder and enter the ''
 
 ![New account](https://github.com/jayrajroshan/Articles/blob/master/img/2_node_account.png?raw=true)
     
@@ -144,9 +144,9 @@ Choose the option '2. Manage existing genesis' by entering the number 2. Then se
 Puppeth create json file with the configuration and ask where to save it. If you started Puppeth while in the gen folder then just press enter since it takes the current directory by default otherwise you can specify the folder here.
 ![Puppeth export](https://github.com/jayrajroshan/Articles/blob/master/img/8_pup_gen_export.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjEwMzQ4NTQsMTc5Nzk5Mjg0NSwtMT
-A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
-OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
-01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
-NTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTMwMjkxNTY2MiwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
