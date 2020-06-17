@@ -49,12 +49,13 @@ Open the terminal and input the following commands:
 	sudo apt-get install ethereum
 
 This will install Geth in your system along with additional tools, like Puppeth which we will use.
-
-    
+We can again check for the version to see if the installation was successful. We will use the following code:
+``` geth version```
+   
     
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIzMDg1ODMsLTg4Mjg1Mjc1MSw4Mj
-AyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMw
-LDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTI0ODQ4MTE3NCwtODgyODUyNzUxLDgyMD
+I1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAs
+MjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
