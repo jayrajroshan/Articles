@@ -68,10 +68,12 @@ Truffle can be installed using the Node package manager or npm. Put the followin
 
     npm install truffle -g
 Truffle will be installed on your system.
+
+## Creating the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc2NjQ0MTIsLTEwNjM0NzIwMzAsLT
-E3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04ODI4
-NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LD
-E3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYx
-OTczXX0=
+eyJoaXN0b3J5IjpbOTI3OTg2NTcwLC0xMDYzNDcyMDMwLC0xNz
+AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUy
+NzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNz
+Q2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3
+M119
 -->
