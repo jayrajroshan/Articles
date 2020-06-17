@@ -23,7 +23,7 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
 
 ## Preparing the environment
 ### Node.Js
-For Linux, we can use the apt package manager
+For Linux, we can use the apt package manager. Open the terminal and input the following commands:
 
     sudo apt update
     sudo apt install nodejs
@@ -40,10 +40,15 @@ For Windows, we can use the installation package from the [download page](https:
 
 ### Geth
 For Linux, we can use the PPA repository for Ethereum.
+Open the terminal and input the following commands:
 
+    sudo add-apt-repository -y ppa:ethereum/ethereum
+
+    
+    
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDg2Nzg2MCwtODgyODUyNzUxLDgyMD
-I1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAs
-MjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTE4NjQwMTUyMDksLTg4Mjg1Mjc1MSw4Mj
+AyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMw
+LDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
