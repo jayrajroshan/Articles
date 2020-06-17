@@ -173,11 +173,16 @@ Now that our bootnode is online, we will finally bring our other nodes online. U
 
     geth --identity node1 --rpc --rpcaddr 0.0.0.0 --rpcport 8080 --rpccorsdomain "*" --datadir /your-directory/blockchain/data/1node --allow-insecure-unlock --rpcapi "eth,web3" --networkid 1234 --bootnodes enode://34bf3c9de1e7cd3c672a020bc3b24f484df78527d206d4f459ebf63cf4b104028b2778d40b5caa13a65a73ddd18e042f679334c4d3691d275a7ded13aac93111@127.0.0.1:0?discport=30310 --unlock  0x1A4D8871901C26Aecb803222FE3B6762dab53fCA --password "/root/rpds-mern/blockchain/data/1node/key.txt" --mine console
 
+This will bring the Node 1 online. We have passed several parameters in this command. I'll explain them one by one
+
+ - --identity is used to identify the node on the network
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk2NjEyNDgsLTE5NjQ5MTI1NDYsMT
-A3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTky
-ODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOT
-gsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3Nzkw
-ODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LD
-U5OTE2NDA1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTQyOTM4MjI2OCwtMTk2NDkxMjU0NiwxMD
+c4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4
+NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OC
+wtMzU0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4
+MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNT
+k5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
