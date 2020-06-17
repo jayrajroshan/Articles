@@ -148,11 +148,16 @@ Now we have our Genesis configurations and we can use it to start our nodes. If 
 To create the two nodes, we need to initialise both the nodes with the same genesis file. Enter the following command to initialise Node 1 and store all the data for Node 1 in the folder 1node.
 
     --datadir /your-directory/blockchain/data/1node/ init /your-directory/blockchain/data/gen/rpds.json
+    
+This will initialise Node 1 with the genesis file we created
+Do the same thing for the second node too.
+
+    --datadir /your-directory/blockchain/data/2node/ init /your-directory/blockchain/data/gen/rpds.json
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzU2OTg1NCwxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbNzI4MTQxNDAzLDE3OTc5OTI4NDUsLTEwNj
+M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
+NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
+YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
+LC0xMjg3MDYxOTczXX0=
 -->
