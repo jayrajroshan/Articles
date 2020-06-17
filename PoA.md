@@ -127,18 +127,18 @@ For this tutorial we will be using Clique, so enter 2 and press Enter.
 Now we can choose the time taken to create a new block. The actual time taken for each individual block will vary, but the network will try to keep the average time it takes to create a new block close to the given time.
 I have given it as 1 second, but we can give it as we want, depending on the use of the network.
 Now it will ask for the addresses of the accounts which will be allowed to seal(or create) a new block at the start of the network. So paste the addresses of the two accounts we created and press enter. Keep a note that 0x is already written in Puppeth, so copy after the 0x in the account address.
-[Seal accounts](https://github.com/jayrajroshan/Articles/blob/master/img/6_pup_gen_seal.png?raw=true)
 
 > Note: We can add new accounts which are allowed to seal later.
 
 In PoA, there is no mining rewards, but the transactions will need some amount of gas fee, so it's a good idea to pre-fund our signer accounts. Puppeth will now ask you to enter the account addresses which should be pre-funded, enter the two accounts we created.
 
+[Seal accounts](https://github.com/jayrajroshan/Articles/blob/master/img/7_pup_gen_fund.png?raw=true)
 > Note: We can later fund accounts using faucets, but it's out of scope for now.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2Mzg5MDQ5LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbMTM1MjkxODQzNCwxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
