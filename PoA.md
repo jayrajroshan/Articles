@@ -5,6 +5,7 @@
 
  1. [Overview](#overview)
  2. [Prerequisites](#prerequisites)
+ 3. [](preparing-the-environment)
 
 ## Overview
 One of the most important part of any blockchain network is the consensus protocol that is being used on the network. The most widely used consensus protocol is 'Proof of Work' or 'PoW' which is used in a lot of major chains like Bitcoin and Ethereum main network (as of June 2020). This protocol requires the nodes to compete against each other by trying to find an answer to a puzzle and whoever reaches the answer first, gets a reward. This protocol is very resource intensive and inefficient. 
@@ -43,17 +44,16 @@ For Linux, we can use the PPA repository for Ethereum.
 Open the terminal and input the following commands:
 
     sudo add-apt-repository -y ppa:ethereum/ethereum
-	
-	```
-sudo apt-get update
-sudo apt-get install ethereum
-``
+
+	sudo apt-get update
+	sudo apt-get install ethereum
+This will install Geth in your system along with additional tools, like Puppeth
 
     
     
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc0MzM1MjgsLTg4Mjg1Mjc1MSw4Mj
+eyJoaXN0b3J5IjpbLTIwMzU2MzMyMjIsLTg4Mjg1Mjc1MSw4Mj
 AyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMw
 LDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
