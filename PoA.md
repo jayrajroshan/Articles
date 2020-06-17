@@ -91,7 +91,8 @@ First we want to create some accounts which we will use to interact with the net
     geth --datadir /your-directory/blockchain/data/1node account new
     
 You will be prompted to enter a password for this account, enter a suitable password and remember it. The account will then be created and we'll get a public address of the key. This address will be used to identify the account on the network. Keep a note of this address, you can copy this and store it in a txt file.  
-Now we'll make a key file
+Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions.
+
 
 
 Now we will create the Genesis block. The genesis block is the first block that is created for the blockchain and it stores all the configuration for the network. We will use a tool called Puppeth to create the genesis block. First we will go to the gen folder where we want to store the config file for the genesis block. Then start Puppeth. Open the terminal and enter the following code:
@@ -101,9 +102,9 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODgyMTk3LDE3OTc5OTI4NDUsLTEwNj
-M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
-NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
-YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
-LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTk1NTQ4ODc3MywxNzk3OTkyODQ1LC0xMD
+YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
+MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
+U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
+NCwtMTI4NzA2MTk3M119
 -->
