@@ -56,11 +56,12 @@ We can again check for the version to see if the installation was successful. We
    
 ![Geth version](https://github.com/jayrajroshan/Articles/blob/master/img/1_geth_ver.png?raw=true)
     
- For Windows, 
+ For Windows,  we can use the downloader available at the [download page](https://geth.ethereum.org/downloads/).
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
+Once installed we can use command prompt to check the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzgwMTkxLDE1MTczMzUzOTgsLTM1ND
-A5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcs
-LTU2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2ND
-A1NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbMTg5NjgwODg1NywxNTE3MzM1Mzk4LC0zNT
+QwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3
+LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNj
+QwNTQsLTEyODcwNjE5NzNdfQ==
 -->
