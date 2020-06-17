@@ -23,7 +23,7 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
 
 ## Preparing the environment
 ### Node.Js
-For Linux we can use the apt package manager
+For Linux, we can use the apt package manager
 
     sudo apt update
     sudo apt install nodejs
@@ -34,10 +34,11 @@ We can check if the installation was successful, by checking the version of node
     node -v
     npm -v
   
-If you get an output, like `v12.18.0`, then the installation wa
-For Windows we can use the installation package from the [download page](https://nodejs.org/en/download/).
+If you get an output, like `v12.18.0`, then the installation was successful.
+
+For Windows, we can use the installation package from the [download page](https://nodejs.org/en/download/). Use the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI0MjE1NTQsODIwMjU0ODEsMTc3OT
-A4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzks
-NTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MD
+gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
+OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
 -->
