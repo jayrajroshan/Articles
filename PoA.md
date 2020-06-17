@@ -182,10 +182,12 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --rpccorsdomain defines which remote resources like url addresses can access this node, we have  given a "*" to indicate all resources can access the node.
  - --datadir tells us where the data for the node is stored.
  - --allow-insecure-unlock is used so that we can unlock an account using the Web3 API via HTTP.
- - --rpcapi defines the APIs we can access via RPC
+ - --rpcapi defines the APIs we can access via RPC.
+ - --networkid is used to identify the network.
+ - --bootnodes is used to store the address of the bootnodes that
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTIwODc1Myw2MTY0ODg3NTYsLTE5Nj
+eyJoaXN0b3J5IjpbLTI5NTY5Mzk3OCw2MTY0ODg3NTYsLTE5Nj
 Q5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2
 MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5LD
 E1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLDgyMDI1
