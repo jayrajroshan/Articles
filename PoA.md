@@ -5,7 +5,9 @@
 
  1. [Overview](#overview)
  2. [Prerequisites](#prerequisites)
- 3. [](preparing-the-environment)
+ 3. [Preparing the environment](#preparing-the-environment)
+	 - [NodeJS](#nodejs)
+
 
 ## Overview
 One of the most important part of any blockchain network is the consensus protocol that is being used on the network. The most widely used consensus protocol is 'Proof of Work' or 'PoW' which is used in a lot of major chains like Bitcoin and Ethereum main network (as of June 2020). This protocol requires the nodes to compete against each other by trying to find an answer to a puzzle and whoever reaches the answer first, gets a reward. This protocol is very resource intensive and inefficient. 
@@ -53,7 +55,7 @@ This will install Geth in your system along with additional tools, like Puppeth
     
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU2MzMyMjIsLTg4Mjg1Mjc1MSw4Mj
-AyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMw
-LDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbNzI2ODM4ODA0LC04ODI4NTI3NTEsODIwMj
+U0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwy
+NTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
