@@ -187,13 +187,13 @@ This will bring the Node 1 online. We have passed several parameters in this com
  - --bootnodes specifies the addresses of the bootnodes that the node will connect to discover other nodes on the network.
  - --unlock specifies the accounts which are associated with this node that we want to unlock so that we can transact using the account.
  - --password specifies a text file which stores the password for the account.
- - 
+ - --mine in PoA specifies that the sealing nodes can start to seal or create new blocks.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyODIwMDEsLTI5NTY5Mzk3OCw2MTY0OD
-g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
-LTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNz
-AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUy
-NzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNz
-Q2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3
-M119
+eyJoaXN0b3J5IjpbLTE5MTE1MDIzOTksLTI5NTY5Mzk3OCw2MT
+Y0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4
+NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC
+0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgy
+ODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OC
+wxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2
+MTk3M119
 -->
