@@ -37,9 +37,13 @@ We can check if the installation was successful, by checking the version of node
 If you get an output, like `v12.18.0`, then the installation was successful.
 
 For Windows, we can use the installation package from the [download page](https://nodejs.org/en/download/). 
+
+### Geth
+For Linux, we can use the PPA repository for Ethereum.
+
 Note: Use the 'geth-alltools' version, since we will be using an additional tool called Puppeth for creating the bootnode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTc5NTAxLC04ODI4NTI3NTEsODIwMj
-U0ODEsMTc3OTA4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwy
-NTc4MTMzMzksNTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
+eyJoaXN0b3J5IjpbMTg2MDg2Nzg2MCwtODgyODUyNzUxLDgyMD
+I1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0MzAs
+MjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
