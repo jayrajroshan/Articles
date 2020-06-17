@@ -89,12 +89,15 @@ In this example we will first create a genesis block, then a bootnode and lastly
 First we want to create some accounts which we will use to interact with the network. We will create an account in Node 1 and store all the data for that account in folder 1node and another in Node 2 and the store the data in 2node. We will use geth to make the account. In the terminal, enter:
 
     geth --datadir /your-directory/blockchain/data/1node account new
+
+[New account](https://github.com/jayrajroshan/Articles/blob/master/img/2_node_account.png?raw=true)
     
 You will be prompted to enter a password for this account, enter a suitable password and remember it. The account will then be created and we'll get a public address of the key. This address will be used to identify the account on the network. Keep a note of this address, you can copy this and store it in a txt file.  
-Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions. We'll go to the folder 1node where the data for node 1 is kept and make a file called key.txt, put the password in and save it. We'll use the nano text editor, you can use your favorite text editor. 
+Now we'll make a key.txt file for storing the password we used, this will be later used to unlock the account so that we can use it for transactions. We'll go to the folder 1node where the data for node 1 is kept and make a file called key.txt, put the password in and save it. We'll use the nano text editor, you can use your favorite text editor. Just don't give yourself a headache by using use Vim.
 
     cd 1node
     nano key.txt
+    
 We'll do the same thing to create an account for node 2:
 
     geth --datadir /your-directory/blockchain/data/2node account new
@@ -105,8 +108,6 @@ Then go to the folder 2node and create a key.txt file with the password for this
     cd ../2node
     nano key.txt
 
-
-
 Now we will create the Genesis block. The genesis block is the first block that is created for the blockchain and it stores all the configuration for the network. We will use a tool called Puppeth to create the genesis block. First we will go to the gen folder where we want to store the config file for the genesis block. Then start Puppeth. Open the terminal and enter the following code:
 
     cd gen
@@ -114,9 +115,9 @@ Now we will create the Genesis block. The genesis block is the first block that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzcwNjQ0NywxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTcxODIwMjg3LDE3OTc5OTI4NDUsLTEwNj
+M0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkw
+NTQyLC04ODI4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzNywtNT
+YxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzksNTk5MTY0MDU0
+LC0xMjg3MDYxOTczXX0=
 -->
