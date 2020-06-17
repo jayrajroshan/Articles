@@ -122,9 +122,9 @@ Now it will ask for which consensus engine to use for the network, we have two o
 For this tutorial we will be using Clique, so enter 2 and press Enter.
 ![Puppeth configuration](https://github.com/jayrajroshan/Articles/blob/master/img/5_pup_gen_clique.png?raw=true)
 
-Now we can choose 
+Now we can choose the time taken to create a new block. The actual time taken for each individual block will vary, but the ne 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Nzc0OTE3OCwxNzk3OTkyODQ1LC0xMD
+eyJoaXN0b3J5IjpbLTMwMTI2MjMzNiwxNzk3OTkyODQ1LC0xMD
 YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
 MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
 U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
