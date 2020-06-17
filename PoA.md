@@ -6,6 +6,7 @@
  1. [Overview](#overview)
  2. [Prerequisites](#prerequisites)
  3. [Preparing the environment](#preparing-the-environment)
+ 4. [Creating the network](#creating-the-network)
 
 ## Overview
 One of the most important part of any blockchain network is the consensus protocol that is being used on the network. The most widely used consensus protocol is 'Proof of Work' or 'PoW' which is used in a lot of major chains like Bitcoin and Ethereum main network (as of June 2020). This protocol requires the nodes to compete against each other by trying to find an answer to a puzzle and whoever reaches the answer first, gets a reward. This protocol is very resource intensive and inefficient. 
@@ -154,11 +155,12 @@ This will initialise Node 1 with the genesis file we created
 Do the same thing for the second node after changing the data directory.
 
     --datadir /your-directory/blockchain/data/2node/ init /your-directory/blockchain/data/gen/rpds.json
-Now we have created the 
+
+Now we have created the genesis configuration and intialised the nodes using the genesis file. The nodes we created are two se
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NDgwODU0LC04MTYyNDA3NjEsMTc5Nz
-k5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1
-Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNz
-c5MDgwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMz
-OSw1OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNj
+I0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4
+NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUyNzUxLD
+gyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNzQ2NTg0
+MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3M119
 -->
