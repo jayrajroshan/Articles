@@ -128,13 +128,13 @@ Now we can choose the time taken to create a new block. The actual time taken fo
 I have given it as 1 second, but we can give it as we want, depending on the use of the network.
 Now it will ask for the addresses of the accounts which will be allowed to seal(or create) a new block at the start of the network. So paste the addresses of the two accounts we created and press enter. Keep a note that 0x is already written in Puppeth, so copy after the 0x in the account address.
 
-> Note: We
+> Note: We can add new accounts which are allowed to seal later.
 
-In PoA, there is no
+In PoA, there is no mining rewards, but the transactions will need some amount of gas fee, so it's a good idea to pre-fund our accounts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTY2ODQzMywxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbNzE3NDQ0MTIsMTc5Nzk5Mjg0NSwtMTA2Mz
+Q3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1
+NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC01Nj
+E3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQwNTQs
+LTEyODcwNjE5NzNdfQ==
 -->
