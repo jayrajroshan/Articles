@@ -132,13 +132,15 @@ Now it will ask for the addresses of the accounts which will be allowed to seal(
 
 In PoA, there is no mining rewards, but the transactions will need some amount of gas fee, so it's a good idea to pre-fund our signer accounts. Puppeth will now ask you to enter the account addresses which should be pre-funded, enter the two accounts we created.
 
-[Seal accounts](https://github.com/jayrajroshan/Articles/blob/master/img/7_pup_gen_fund.png?raw=true)
+![Seal accounts](https://github.com/jayrajroshan/Articles/blob/master/img/7_pup_gen_fund.png?raw=true)
 > Note: We can later fund accounts using faucets, but it's out of scope for now.
 
+Press Enter to pre-fund the pre-compile addresses
+Now we need to enter a network ID
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjkxODQzNCwxNzk3OTkyODQ1LC0xMD
-YzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5
-MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLT
-U2MTc0MzM1OCwxNzQ2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1
-NCwtMTI4NzA2MTk3M119
+eyJoaXN0b3J5IjpbLTE0MDkzMzYyNjcsMTc5Nzk5Mjg0NSwtMT
+A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
+OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
+01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
+NTQsLTEyODcwNjE5NzNdfQ==
 -->
