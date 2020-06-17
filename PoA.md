@@ -23,10 +23,14 @@ In this tutorial we will be using a program called Geth, which is a full Ethereu
 
 ## Preparing the environment
 ### Node.Js
-For Linux we can use the 
+For Linux we can use the apt package manager
+
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjA4NjEyMiw4MjAyNTQ4MSwxNzc5MD
-gwMTM3LC01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1
-OTkxNjQwNTQsLTEyODcwNjE5NzNdfQ==
+eyJoaXN0b3J5IjpbLTIwOTM0NzM5MTksODIwMjU0ODEsMTc3OT
+A4MDEzNywtNTYxNzQzMzU4LDE3NDY1ODQzMCwyNTc4MTMzMzks
+NTk5MTY0MDU0LC0xMjg3MDYxOTczXX0=
 -->
