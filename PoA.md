@@ -62,7 +62,7 @@ Once installed we can use command prompt to check the version to check if the in
 
     geth version
 
-![Geth version (Windows)]()
+![Geth version (Windows)](https://github.com/jayrajroshan/Articles/blob/master/img/1b_geth_ver.png?raw=true)
 
 ### Truffle
 Truffle can be installed using the Node package manager or npm. Put the following code in either the Linux Terminal or Windows command prompt:
@@ -72,11 +72,11 @@ Truffle will be installed on your system.
 
 ## Creating the network
 
-First
+First let's make our working directory, and all the folders we need within it. We can do 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjMyMzU5NywtMTA2MzQ3MjAzMCwtMT
-cwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1NDIsLTg4Mjg1
-Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC01NjE3NDMzNTgsMT
-c0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQwNTQsLTEyODcwNjE5
-NzNdfQ==
+eyJoaXN0b3J5IjpbMjI1NTQ2ODIwLC0xMDYzNDcyMDMwLC0xNz
+AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0MiwtODgyODUy
+NzUxLDgyMDI1NDgxLDE3NzkwODAxMzcsLTU2MTc0MzM1OCwxNz
+Q2NTg0MzAsMjU3ODEzMzM5LDU5OTE2NDA1NCwtMTI4NzA2MTk3
+M119
 -->
