@@ -78,9 +78,9 @@ The final file structure should look like this:
 Let's create the folders, first we'll create the project folder of the name 'blockchain' then go to that folder with the cd command.
     mkdir blockchain
     cd blockchain
-Now that we are inside the blockchain folder, we'll create two more folders 'data' where we  'sc'
+Now that we are inside the blockchain folder, we'll create two more folders 'data' where we will keep the data for the blockchain network and the nodes we will create. The other folder called 'sc' will hold all the data related to Truffle and it is where we will keep the smart contract. For now we will only work in the data folder, so after 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMxNjI4ODQsMTc5Nzk5Mjg0NSwtMT
+eyJoaXN0b3J5IjpbLTEyNTQzNTI3NDgsMTc5Nzk5Mjg0NSwtMT
 A2MzQ3MjAzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4LC0zNTQw
 OTA1NDIsLTg4Mjg1Mjc1MSw4MjAyNTQ4MSwxNzc5MDgwMTM3LC
 01NjE3NDMzNTgsMTc0NjU4NDMwLDI1NzgxMzMzOSw1OTkxNjQw
