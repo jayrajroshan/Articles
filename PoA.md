@@ -220,11 +220,11 @@ First we need to set up the directories and configuration files that Truffle wil
 
     truffle init
 
-Now truffle will create 3 folders for us: contracts, migrations and test. It also 
+Now truffle will create 3 folders for us: contracts, migrations and test. It also creates a file with the name 'truffle-config.js' , this file is used to define the networks which Truffle will connect to and define some network 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-NzU4MDQzODE4LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0y
+MDM5NzczODc5LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
 Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
 NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
 g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
