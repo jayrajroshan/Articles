@@ -241,13 +241,14 @@ module.exports = function(deployer) {
 
 > Note: Change 'MyContract' under require to the name of your contract to your contract.
 
+Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will change
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzUz
-MjUwNzQ0MywtMTE2NTg2MDMzOCwzNzY2Nzg5NTEsLTE2NzE2ND
-MyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NTkyMTMsOTQy
-NDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2NDg4Nz
-U2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwODU0LC04
-MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMT
-E1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1NDJdfQ==
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzEz
+MjkzMTI4MDEsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
+QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
+MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
+c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
+ODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MD
+ExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyXX0=
 -->
