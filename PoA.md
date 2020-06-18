@@ -216,14 +216,14 @@ Now our Network is up and running. Now we will use Truffle to connect to our net
 
 ## Deploying Smart Contracts with Truffle
 ### Setting up Truffle project
-First we need to set up the directories that Truffle will use
+First we need to set up the directories and  that Truffle will use
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzM3
-NjY3ODk1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MT
-YxLDMwMjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5
-NTY5Mzk3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OT
-gyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0x
-MDYzNDcyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOTgsLTM1ND
-A5MDU0MiwtODgyODUyNzUxLDgyMDI1NDgxXX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzEx
+ODAyNDM5MzYsMzc2Njc4OTUxLC0xNjcxNjQzMjQsLTQ5MDExMD
+I2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0MjQwMTIxNSwtMTY2
+NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMj
+U0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3
+OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNz
+MzNTM5OCwtMzU0MDkwNTQyLC04ODI4NTI3NTFdfQ==
 -->
