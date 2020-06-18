@@ -270,14 +270,14 @@ Now that our smart contract is compiled finally we can deploy the smart contract
 This will deploy the contract on our blockchain network. When the contract has been deployed successfully, we will get an address for the smart contract, we can use this address to contact our smart contract.
 ![truffle migrate](https://github.com/jayrajroshan/Articles/blob/master/img/16_truffle_migrate.png?raw=true)
 
-Hence we reach the end of this tutorial. We have learnt how to create our own private Ethereum network which uses the Proof of Authority consensus protocol using Geth. Then We learnt how to deploy
+Hence we reach the end of this tutorial. We have learnt how to create our own private Ethereum network which uses the Proof of Authority consensus protocol using Geth. Then we learnt how to deploy a smart contract on this network. I'll urge you to read more about Ethereum development.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy05
-NDk4ODIwOTEsNTMyMjU2MTYwLC0xMjYxMDUzMzg4LC0xODgyMT
-kwODg2LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwt
-MTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OT
-IxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2
-MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0OD
-A4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1XX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+NjY1MzQxMDM5LDUzMjI1NjE2MCwtMTI2MTA1MzM4OCwtMTg4Mj
+E5MDg4NiwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEs
+LTE2NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NT
+kyMTMsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5Nzgs
+NjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2ND
+gwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NV19
 -->
