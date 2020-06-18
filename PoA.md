@@ -247,17 +247,18 @@ Before we use truffle to interact with our blockchain network, we need to tell T
 				host: "127.0.0.1"
 				port: 8080,
 				network_id: 1234,
-				gas: 85
+				gas: 8500000
+				},
 ````
 
 ![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy05
-MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MTY0Mz
-I0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5NDI0
-MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0ODg3NT
-YsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgx
-NjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMT
-U4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+MjkxMzY1MTQ5LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3OD
+k1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMw
+Mjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mz
+k3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2
+MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzND
+cyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOThdfQ==
 -->
