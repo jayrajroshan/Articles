@@ -243,16 +243,21 @@ module.exports = function(deployer) {
 
 Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will add our network configuration in `truffle-config.js`.  Open the file with any text editor or IDE and add the following under networks:
 ````javascript
+	network-name: {
+				host: "127.0.0.1"
+				port: 8080,
+				network_id: 1234,
+				gas: 85
 ````
 
 ![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-ODE1MDY3MTcxLC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
-Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
-NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
-g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
-LTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNz
-AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy05
+MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MTY0Mz
+I0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5NDI0
+MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0ODg3NT
+YsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgx
+NjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMT
+U4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
 -->
