@@ -229,14 +229,17 @@ For this tutorial, I am assuming you have a smart contract ready. So first of al
 > Note: You can use [Remix IDE](https://remix.ethereum.org/) to develop and test your smart contracts.
 
 Now that we have our smart contract in the Truffle contracts folder, we will tweak the migration settings for our purposes. If we see inside the migrations folder, we will see a javascript file present with the name `1_initial_migration.js`. This file is used to deploy the Migration.sol smart contract to our network which is used to deploy further smart contracts.
-We need to create a new javascript file called `2_deploy_contracts.js` which will be used to tell Truffle which smart contracts we want to deploy. The number the the beginnign of the fie name signify the order in which these scripts need to run, as we will need to deploy the Migrations.sol contract first, hence we have 1 in  Enter the following in the newly created file:
+We need to create a new javascript file called `2_deploy_contracts.js` which will be used to tell Truffle which smart contracts we want to deploy. The number the the beginning of the fie name signify the order in which these scripts need to run, as we will need to deploy the `Migrations.sol` contract first, hence we have 1 in `1_initial_migration.js`. Enter the following in the newly created file:
+
+    enter code here
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
 F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy00
-Nzg5MTUxMjksLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
-QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
-MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
-c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
-ODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MD
-ExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyXX0=
+MDQ0ODc3MiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEsLTE2NzE2ND
+MyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NTkyMTMsOTQy
+NDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2NDg4Nz
+U2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwODU0LC04
+MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3MjAzMCwtMTcwMT
+E1ODYxOSwxNTE3MzM1Mzk4LC0zNTQwOTA1NDJdfQ==
 -->
