@@ -267,14 +267,16 @@ Now that our smart contract is compiled finally we can deploy the smart contract
 
     truffle migrate --network nerwork-name
 
+This will deploy the contract on our blockchain network. When the contract has been deployed successfully, we will get an address for the smart contract, we can use this address to contact our smart contract.
+
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wzkx
-OTkwNTg5LDUzMjI1NjE2MCwtMTI2MTA1MzM4OCwtMTg4MjE5MD
-g4NiwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEsLTE2
-NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NTkyMT
-MsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2
-NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwOD
-U0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NV19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzQy
+MTA3MTA2MSw1MzIyNTYxNjAsLTEyNjEwNTMzODgsLTE4ODIxOT
+A4ODYsLTkwNjgxMDYsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0x
+NjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
+EzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYx
+NjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MD
+g1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDVdfQ==
 -->
