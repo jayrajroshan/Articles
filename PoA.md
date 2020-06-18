@@ -228,11 +228,12 @@ For this tutorial, I am assuming you have a smart contract ready. So first of al
 
 > Note: You can use [Remix IDE](https://remix.ethereum.org/) to develop and test your smart contracts.
 
-Now that we have our smart contract in the Truffle contracts folder, we will tweak the migration settings for our purposes. If we see inside the migrations folder, we will see a javascript file present with the name '1_initial_migration.js'. This file is used to deploy the Migration.sol smart contract to our network 
+Now that we have our smart contract in the Truffle contracts folder, we will tweak the migration settings for our purposes. If we see inside the migrations folder, we will see a javascript file present with the name '1_initial_migration.js'. This file is used to deploy the Migration.sol smart contract to our network which is used to deploy further smart contracts.
+We need to create a new javascript file called 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-ODI0MzkxNzA1LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0y
+MTA2MDY1NTYxLC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
 Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
 NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
 g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
