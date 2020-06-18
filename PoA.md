@@ -268,12 +268,13 @@ Now that our smart contract is compiled finally we can deploy the smart contract
     truffle migrate --network nerwork-name
 
 This will deploy the contract on our blockchain network. When the contract has been deployed successfully, we will get an address for the smart contract, we can use this address to contact our smart contract.
+![truffle migrate](https://github.com/jayrajroshan/Articles/blob/master/img/16_truffle_migrate.png?raw=true)
 
-
+Hence we reach the end of this tutorial. We have learnt how to create our own 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzQy
-MTA3MTA2MSw1MzIyNTYxNjAsLTEyNjEwNTMzODgsLTE4ODIxOT
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wzgz
+NjA2NTA5NSw1MzIyNTYxNjAsLTEyNjEwNTMzODgsLTE4ODIxOT
 A4ODYsLTkwNjgxMDYsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0x
 NjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
 EzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYx
