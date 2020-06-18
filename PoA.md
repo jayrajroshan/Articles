@@ -228,14 +228,14 @@ For this tutorial, I am assuming you have a smart contract ready. So first of al
 
 > Note: You can use [Remix IDE](https://remix.ethereum.org/) to develop and test your smart contracts.
 
-Now that we have our smart contract
+Now that we have our smart contract in the Truffle contracts folder, we will tweak the migration settings a little
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-NjIxOTk4ODQ0LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
-Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
-NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
-g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
-LTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNz
-AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzE3
+NTExNjQ4NzQsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
+QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
+MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
+c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
+ODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MD
+ExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyXX0=
 -->
