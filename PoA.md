@@ -241,16 +241,18 @@ module.exports = function(deployer) {
 
 > Note: Change 'MyContract' under require to the name of your contract to your contract.
 
-Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will add our network configuration in `truffle-config.js`.  Open the file with any text editor or IDE and add the following:
+Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will add our network configuration in `truffle-config.js`.  Open the file with any text editor or IDE and add the following under networks:
+````javascript
+````
 
-[https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
+![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy02
-OTk2ODE5NDYsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
-QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
-MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
-c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
-ODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MD
-ExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyXX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+ODE1MDY3MTcxLC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
+Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
+NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
+g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
+LTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNz
+AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
 -->
