@@ -232,14 +232,14 @@ Now that we have our smart contract in the Truffle contracts folder, we will twe
 We need to create a new javascript file called `2_deploy_contracts.js` which will be used to tell Truffle which smart contracts we want to deploy. The number the the beginning of the fie name signify the order in which these scripts need to run, as we will need to deploy the `Migrations.sol` contract first, hence we have 1 in `1_initial_migration.js`. Enter the following in the newly created file:
 
 ```javascript
-var MyContract = artifacts.require("MyContract");
+var Contract = artifacts.require("ContractName");
 
 module.exports = function(deployer) {
-  deployer.deploy(MyContract);
+  deployer.deploy(Contract);
 };
 ```
 
-> Note: Change 'MyContract' under require to the name of your contract to your contract. If you want to deploy multiple contracts, just import all the contracts and use deployer.deploy()
+> Note: Change 'Contract' under require to the name of your contract to your contract. If you want to deploy multiple contracts, just import all the contracts and use deployer.deploy(Contract2) and so on.
 
 Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will add our network configuration in `truffle-config.js`.  Open the file with any text editor or IDE and add the following under networks:
 ````javascript
@@ -256,15 +256,15 @@ Before we use truffle to interact with our blockchain network, we need to tell T
 > Note: You can also uncomment the development network and change the port and 	  	     network_id.
 
 Now save the file and exit the text editor.
-We are ready to deploy our smart contract on the network, but before that we will need to compile our smart contracts
+We are ready to deploy our smart contract on the network, but before that we will need to compile our smart contracts. We can use the following command to compile all the smart contracts we kept in the contracts folder.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-OTYxNDM3Mzk3LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3OD
-k1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMw
-Mjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mz
-k3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2
-MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzND
-cyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOThdfQ==
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzI5
+OTQ0MDcyNywtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NT
+EsLTE2NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3
+NTkyMTMsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5Nz
+gsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2
+NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3Mj
+AzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4XX0=
 -->
