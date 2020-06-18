@@ -260,15 +260,15 @@ We are ready to deploy our smart contract on the network, but before that we wil
 
     truffle compile
 
-When we run this command Truffle uses the solc compiler and compiles our smart contract. After the compilation is complete, Truffle genereates multiple compilation
+When we run this command Truffle uses the solc compiler and compiles our smart contract. After the compilation is complete, Truffle generates multiple compilation artifacts which are placed in a new `build` folder. 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-MjYxMDUzMzg4LC0xODgyMTkwODg2LC05MDY4MTA2LC0xMTY1OD
-YwMzM4LDM3NjY3ODk1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIs
-Njc3NTE5MTYxLDMwMjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNz
-QwMTUsLTI5NTY5Mzk3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYs
-MTA3ODU4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OT
-kyODQ1LC0xMDYzNDcyMDMwLC0xNzAxMTU4NjE5XX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzUz
+MjI1NjE2MCwtMTI2MTA1MzM4OCwtMTg4MjE5MDg4NiwtOTA2OD
+EwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEsLTE2NzE2NDMyNCwt
+NDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NTkyMTMsOTQyNDAxMj
+E1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2NDg4NzU2LC0x
+OTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwODU0LC04MTYyND
+A3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3MjAzMF19
 -->
