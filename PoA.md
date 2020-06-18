@@ -215,14 +215,14 @@ When the node 1 finds node 2 and connects to it, both the nodes will start seali
 Now our Network is up and running. Now we will use Truffle to connect to our network and deploy our smart contract.
 
 ## Deploying Smart Contracts with Truffle
-
+### Setting up Truffle
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-NjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
-EzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYx
-NjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MD
-g1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAs
-LTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyLC04OD
-I4NTI3NTEsODIwMjU0ODEsMTc3OTA4MDEzN119
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0y
+MDcxOTYxNDM2LC0xNjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MT
+kxNjEsMzAyNzU5MjEzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwt
+Mjk1NjkzOTc4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NT
+g5ODI2LDYzNjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUs
+LTEwNjM0NzIwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OCwtMz
+U0MDkwNTQyLC04ODI4NTI3NTEsODIwMjU0ODFdfQ==
 -->
