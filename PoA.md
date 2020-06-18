@@ -254,15 +254,17 @@ Before we use truffle to interact with our blockchain network, we need to tell T
 ![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
 
 > Note: You can also uncomment the development network and change the port and network_id.
-N
+
+Now save the file and exit the text editor.
+We are ready to deploy our smart contract on the network, but before that we will need to compile our smart contracts
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-NjQwODM0MTUsLTkwNjgxMDYsLTExNjU4NjAzMzgsMzc2Njc4OT
-UxLC0xNjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAy
-NzU5MjEzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOT
-c4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYz
-NjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0Nz
-IwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OF19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzU1
+MzQzMjU3NCwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NT
+EsLTE2NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3
+NTkyMTMsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5Nz
+gsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2
+NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3Mj
+AzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4XX0=
 -->
