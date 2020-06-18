@@ -260,16 +260,16 @@ We are ready to deploy our smart contract on the network, but before that we wil
 
     truffle compile
 
-[Tr](https://github.com/jayrajroshan/Articles/blob/master/img/15_truffle_compile.png?raw=true)
-When we run this command Truffle uses the solc compiler and compiles our smart contract. After the compilation is complete, Truffle generates multiple compilation artifacts which are placed in a new `build` folder. If you go in the build folder, there will be another 
+![Truffle compile](https://github.com/jayrajroshan/Articles/blob/master/img/15_truffle_compile.png?raw=true)
+When we run this command Truffle uses the solc compiler and compiles our smart contract. After the compilation is complete, Truffle generates multiple compilation artifacts which are placed in a new `build` folder. If you go in the build folder, there will be another called contracts, inside you'll find a json file of the same name as the smart contract. This json file contains the ABI for the smart contract.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wzg4
-MzIwODYwMSw1MzIyNTYxNjAsLTEyNjEwNTMzODgsLTE4ODIxOT
-A4ODYsLTkwNjgxMDYsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0x
-NjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5Mj
-EzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYx
-NjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MD
-g1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDVdfQ==
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzIz
+OTIxODEsNTMyMjU2MTYwLC0xMjYxMDUzMzg4LC0xODgyMTkwOD
+g2LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3
+MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMy
+w5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0
+ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NT
+QsLTgxNjI0MDc2MSwxNzk3OTkyODQ1XX0=
 -->
