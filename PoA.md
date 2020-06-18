@@ -263,15 +263,18 @@ We are ready to deploy our smart contract on the network, but before that we wil
 ![Truffle compile](https://github.com/jayrajroshan/Articles/blob/master/img/15_truffle_compile.png?raw=true)
 When we run this command Truffle uses the solc compiler and compiles our smart contract. After the compilation is complete, Truffle generates multiple compilation artifacts which are placed in a new `build` folder. If you go in the build folder, there will be another called contracts, inside you'll find a json file of the same name as the smart contract. This json file contains the ABI for the smart contract. ABI stands for Application Binary Interface, it is required when we want to interact with our smart contracts from outside the network. 
 
-Now that our smart contract is compiled finally we can 
+Now that our smart contract is compiled finally we can deploy the smart contract on our network for this you can run the following command:
+
+    truffle migrate --network nerwork-name
+
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzE0
-MDc2ODE1MDAsNTMyMjU2MTYwLC0xMjYxMDUzMzg4LC0xODgyMT
-kwODg2LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwt
-MTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OT
-IxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2
-MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0OD
-A4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1XX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wzkx
+OTkwNTg5LDUzMjI1NjE2MCwtMTI2MTA1MzM4OCwtMTg4MjE5MD
+g4NiwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEsLTE2
+NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NTkyMT
+MsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5NzgsNjE2
+NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2NDgwOD
+U0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NV19
 -->
