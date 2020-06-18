@@ -252,13 +252,17 @@ Before we use truffle to interact with our blockchain network, we need to tell T
 ````
 
 ![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
+
+> Note: You can also uncomment the development network and change the port and network_id.
+N
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
 F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-MjkxMzY1MTQ5LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3OD
-k1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMw
-Mjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mz
-k3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2
-MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzND
-cyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOThdfQ==
+NjQwODM0MTUsLTkwNjgxMDYsLTExNjU4NjAzMzgsMzc2Njc4OT
+UxLC0xNjcxNjQzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAy
+NzU5MjEzLDk0MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOT
+c4LDYxNjQ4ODc1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYz
+NjQ4MDg1NCwtODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0Nz
+IwMzAsLTE3MDExNTg2MTksMTUxNzMzNTM5OF19
 -->
