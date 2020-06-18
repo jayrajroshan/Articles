@@ -223,11 +223,11 @@ First we need to set up the directories and configuration files that Truffle wil
 Now truffle will create 3 folders for us: contracts, migrations and test. The folders are self descriptive in that contracts stores all the smart contracts files written in Solidity, migrations stores the configurations for running migration of smart contracts to our network and test houses test scripts. It also creates a file with the name 'truffle-config.js' , this file is used to define the networks which Truffle will connect to and define some network variables. 
 ![Truffle init](https://github.com/jayrajroshan/Articles/blob/master/img/12_truffle_init.png?raw=true)
 
-For this tutorial, I am assuming you have a smart contract ready. So first of all we have to place this smart contract in the contracts folder. The smart contracts written in Solidity have an extension of .sol, we will use  
+For this tutorial, I am assuming you have a smart contract ready. So first of all we have to place this smart contract in the contracts folder. The smart contracts written in Solidity have an extension of .sol.  If we go into the contracts folder, we will see that a smart contract called 'Migrations.sol' is already present. This s
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0z
-ODQwMzUzNjMsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzE2
+Mjk2MzUwMjcsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
 QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
 MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
 c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
