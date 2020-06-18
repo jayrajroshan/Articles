@@ -224,14 +224,18 @@ Now truffle will create 3 folders for us: contracts, migrations and test. The fo
 ![Truffle init](https://github.com/jayrajroshan/Articles/blob/master/img/12_truffle_init.png?raw=true)
 
 For this tutorial, I am assuming you have a smart contract ready. So first of all we have to place this smart contract in the contracts folder. The smart contracts written in Solidity have an extension of .sol.  If we go into the contracts folder, we will see that a smart contract called 'Migrations.sol' is already present. This smart contract is used to deploy our smart contracts on the blockchain network. We will place our smart contract in the same folder.
-[Smart Cntracts](https://github.com/jayrajroshan/Articles/blob/master/img/13_contract.png?raw=true)
+![Smart Contracts](https://github.com/jayrajroshan/Articles/blob/master/img/13_contract.png?raw=true)
+
+> Note: You can use [Remix IDE](https://remix.ethereum.org/) to develop and test your smart contracts.
+
+Now that we have our smart contract
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzEx
-OTQ0Mzk1NjgsLTExNjU4NjAzMzgsMzc2Njc4OTUxLC0xNjcxNj
-QzMjQsLTQ5MDExMDI2Miw2Nzc1MTkxNjEsMzAyNzU5MjEzLDk0
-MjQwMTIxNSwtMTY2NjA3NDAxNSwtMjk1NjkzOTc4LDYxNjQ4OD
-c1NiwtMTk2NDkxMjU0NiwxMDc4NTg5ODI2LDYzNjQ4MDg1NCwt
-ODE2MjQwNzYxLDE3OTc5OTI4NDUsLTEwNjM0NzIwMzAsLTE3MD
-ExNTg2MTksMTUxNzMzNTM5OCwtMzU0MDkwNTQyXX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+NjIxOTk4ODQ0LC0xMTY1ODYwMzM4LDM3NjY3ODk1MSwtMTY3MT
+Y0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMwMjc1OTIxMyw5
+NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mzk3OCw2MTY0OD
+g3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2MzY0ODA4NTQs
+LTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzNDcyMDMwLC0xNz
+AxMTU4NjE5LDE1MTczMzUzOTgsLTM1NDA5MDU0Ml19
 -->
