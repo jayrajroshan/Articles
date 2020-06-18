@@ -239,7 +239,7 @@ module.exports = function(deployer) {
 };
 ```
 
-> Note: Change 'MyContract' under require to the name of your contract to your contract.
+> Note: Change 'MyContract' under require to the name of your contract to your contract. If you want to deploy multiple contracts, just import all the contracts and use deployer.deploy()
 
 Before we use truffle to interact with our blockchain network, we need to tell Truffle about the network we want to use. For this, we will add our network configuration in `truffle-config.js`.  Open the file with any text editor or IDE and add the following under networks:
 ````javascript
@@ -253,18 +253,18 @@ Before we use truffle to interact with our blockchain network, we need to tell T
 
 ![Truffle-config.js](https://github.com/jayrajroshan/Articles/blob/master/img/14_truffle_config.png?raw=true)
 
-> Note: You can also uncomment the development network and change the port and network_id.
+> Note: You can also uncomment the development network and change the port and 	  	     network_id.
 
 Now save the file and exit the text editor.
 We are ready to deploy our smart contract on the network, but before that we will need to compile our smart contracts
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6WzU1
-MzQzMjU3NCwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NT
-EsLTE2NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3
-NTkyMTMsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5Nz
-gsNjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2
-NDgwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NSwtMTA2MzQ3Mj
-AzMCwtMTcwMTE1ODYxOSwxNTE3MzM1Mzk4XX0=
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
+OTYxNDM3Mzk3LC05MDY4MTA2LC0xMTY1ODYwMzM4LDM3NjY3OD
+k1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NTE5MTYxLDMw
+Mjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUsLTI5NTY5Mz
+k3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3ODU4OTgyNiw2
+MzY0ODA4NTQsLTgxNjI0MDc2MSwxNzk3OTkyODQ1LC0xMDYzND
+cyMDMwLC0xNzAxMTU4NjE5LDE1MTczMzUzOThdfQ==
 -->
