@@ -163,6 +163,8 @@ The first is to manually enter the addresses of each node on our network to othe
 The other way is by using a 'bootnode'. A bootnode is a node which has one job that is network discovery. It allows all the nodes in the network to discover each other and connect with each other so that we don't have to manually connect each node. We can use any node as the bootnode, however, Geth gives us a dedicated light-weight bootnode. To use this bootnode, we will first need to create a key file for the bootnode. Go to the boot folder that we created and use the following command:
 
     bootnode -genkey boot.key
+
+
 This will create a file called 'boot.key' which we will use to run the bootnode. You can name the file anything such as 'discover.key'. To run the bootnode we will need to be in the directory with the 'boot.key' file and run the following command:
 
     bootnode -nodekey boot.key -verbosity 9 -addr :30310
@@ -273,11 +275,11 @@ This will deploy the contract on our blockchain network. When the contract has b
 Hence we reach the end of this tutorial. We have learnt how to create our own private Ethereum network which uses the Proof of Authority consensus protocol using Geth. Then we learnt how to deploy a smart contract on this network. I'll urge you to read more about Ethereum development.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByb29mIG9mIFdvcmtcbm
-F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy0x
-NjY1MzQxMDM5LDUzMjI1NjE2MCwtMTI2MTA1MzM4OCwtMTg4Mj
-E5MDg4NiwtOTA2ODEwNiwtMTE2NTg2MDMzOCwzNzY2Nzg5NTEs
-LTE2NzE2NDMyNCwtNDkwMTEwMjYyLDY3NzUxOTE2MSwzMDI3NT
-kyMTMsOTQyNDAxMjE1LC0xNjY2MDc0MDE1LC0yOTU2OTM5Nzgs
-NjE2NDg4NzU2LC0xOTY0OTEyNTQ2LDEwNzg1ODk4MjYsNjM2ND
-gwODU0LC04MTYyNDA3NjEsMTc5Nzk5Mjg0NV19
+F1dGhvcjogSmF5cmFqIFJvc2hhblxuIiwiaGlzdG9yeSI6Wy00
+Nzg4NDgxNDcsLTE2NjUzNDEwMzksNTMyMjU2MTYwLC0xMjYxMD
+UzMzg4LC0xODgyMTkwODg2LC05MDY4MTA2LC0xMTY1ODYwMzM4
+LDM3NjY3ODk1MSwtMTY3MTY0MzI0LC00OTAxMTAyNjIsNjc3NT
+E5MTYxLDMwMjc1OTIxMyw5NDI0MDEyMTUsLTE2NjYwNzQwMTUs
+LTI5NTY5Mzk3OCw2MTY0ODg3NTYsLTE5NjQ5MTI1NDYsMTA3OD
+U4OTgyNiw2MzY0ODA4NTQsLTgxNjI0MDc2MV19
 -->
